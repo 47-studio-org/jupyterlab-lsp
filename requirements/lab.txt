@@ -1,3 +1,4 @@
 # the version of jupyterlab
 -r ./prod.txt
 jupyterlab >=3.0.0,<4.0.0a0
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
